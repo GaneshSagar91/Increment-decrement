@@ -1,0 +1,41 @@
+body{
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('image2.jpg');
+  background-position: center;
+  background-size:cover ;
+}
+.main{
+  width : 50%;
+  height:50%;   
+  margin : 50px auto 5px;
+  padding : 30px;
+  /* border: 1px black solid; */
+  text-align: center;
+}
+.main h1, .text{
+  font-size: 35px;
+  color: white;
+}
+#count{
+  color: white;
+  font-size: 50px;
+}
+.main button , #saveBtn{
+  background-color: rgb(139, 10, 10);
+  color: white;
+  width:120px;
+  height: 40px;
+  border :transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+
+}
+#saveBtn{
+  background-color: rgb(9, 93, 11);
+  margin:auto;
+  display: block;
+}
+.text{
+  text-align: center;
+  
+}
